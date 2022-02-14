@@ -42,7 +42,7 @@ void loop(){
 	int status;
 
 	do{
-		printf("<3: ");
+		printf("> ");
 		linha = ler_linha();
 		args = divide_linha(linha);
 		status = executar(args);
